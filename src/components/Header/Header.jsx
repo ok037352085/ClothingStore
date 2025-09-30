@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
+import Logo from '/smileface.png'
 
 export default function Header({ cartCount }) {
   return (
     <header className={styles.header}>
       <div className={styles.topRow}>
         <div className={styles.left}>
-          <img src="/smileface.png" alt="logo" className={styles.logo} />
+          <img src={Logo} alt="logo" className={styles.logo} />
           <Link to="/" className={styles.shopname}>我的商店</Link>
         </div>
 
