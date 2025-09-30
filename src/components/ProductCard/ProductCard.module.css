@@ -1,0 +1,44 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background: white;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 14px;
+  margin: 10px 0;
+  height: 40px;
+  overflow: hidden;
+}
+
+.price {
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #457b9d;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1d3557;
+}

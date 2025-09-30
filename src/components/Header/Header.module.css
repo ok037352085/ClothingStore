@@ -1,0 +1,86 @@
+/* Header 外框 */
+.header {
+  background: #1d3557;
+  color: white;
+  width: 100%;
+}
+
+/* 第一排 */
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* 左邊 LOGO + 店名 */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.shopname {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 右邊按鈕 */
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  background: #457b9d;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn:hover {
+  background: #a8dadc;
+  color: #1d3557;
+}
+
+/* 購物車數量 */
+.count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 12px;
+  background: red;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* 第二排：分類列 */
+.bottomRow {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+  background: #457b9d;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
