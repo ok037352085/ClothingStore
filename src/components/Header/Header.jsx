@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
-import Logo from '/smileface.png'
+import Logo from '/smileface.png';
 
 export default function Header({ cartCount }) {
   return (
@@ -23,9 +23,9 @@ export default function Header({ cartCount }) {
       </div>
 
       <nav className={styles.bottomRow}>
-        <Link to="/" className={styles.link}>鞋子</Link>
-        <Link to="/" className={styles.link}>包包</Link>
-        <Link to="/" className={styles.link}>配件</Link>
+        <Link to="/" className={styles.link}>男士服裝</Link>
+        <Link to="/" className={styles.link}>女士服裝</Link>
+        <Link to="/" className={styles.link}>飾品</Link>
       </nav>
     </header>
   );
